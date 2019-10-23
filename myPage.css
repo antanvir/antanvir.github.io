@@ -1,0 +1,122 @@
+body {
+	/*background-image: url("images//black.jpg");*/
+	background-color: gray;
+	background-repeat: repeat;
+	
+	height: 100%;
+	width: 100%;
+
+	color: lightgray;
+	
+	padding-left: 1.0rem;
+	padding-right: 1.0rem;
+
+}
+
+h1, h2,
+h3, h4 {
+	/*font-family: Palatino, "Palatino Linotype", "Book Antiqua";*/
+	font-family: Erato, serif;
+	font-style: normal;
+	color: rgb(237, 229, 184);
+}
+
+h5, h6 {
+	/*font-family: Palatino, "Palatino Linotype", "Book Antiqua";*/
+	font-family: Erato, serif;
+	font-style: normal;
+	color: rgb(234, 234, 225);
+}
+
+a, a:active, a:hover {
+	color: lightgray;
+	text-decoration: none;
+}
+
+
+#menu a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+#menu a img {
+	height: 1.0rem;
+	width: 1.0rem;
+}
+
+.col-sm-3, .col-sm-9 > div {
+	margin-top: 1.0rem;
+
+	padding: 0.6rem;
+
+	background-color: rgb(6, 20, 38); /* CUSTOM BACKGROUND FOR CONTENTS */
+
+	text-align: justify;
+}
+
+
+.profile-pic img {
+	width: 50%;
+	height: 50%;
+}
+
+.img-thumbnail {
+	border: none;
+	background-color: silver;
+}
+
+.divider {
+	background-color: silver;
+
+	width: 100%;
+	height: 2%;
+}
+#menu {
+	padding-top: 1.0rem;
+	padding-bottom: 1.0rem;
+	padding-left: 2.5rem;
+}
+
+
+kbd {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	background-color: silver;
+	color: black;
+}
+
+mark {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.site-note kbd{
+	/*background-color: rgb(6, 20, 38);*/
+	background-color: silver;
+	color: black;
+	text-align: center;
+
+	margin-top: 2.0rem;
+
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+}
+
+.copyright {
+	background-color: rgb(6, 20, 38);
+
+	top: 2.0rem;
+
+	margin-top: 1.0rem;
+	margin-bottom: 1.0rem;
+
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+}
+
+.site-links img {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
