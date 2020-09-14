@@ -1,7 +1,8 @@
 body {
-	/*background-image: url("images//black.jpg");*/
-	background-color: gray;
+	background-image: url("images//site-bg1.gif");
+	/* background-color: gray; */
 	background-repeat: repeat;
+	/* opacity: 0.5; */
 	
 	height: 100%;
 	width: 100%;
@@ -12,6 +13,11 @@ body {
 	padding-right: 1.0rem;
 
 }
+
+.collapse a {
+	color: skyblue;
+}
+
 
 h1, h2,
 h3, h4 {
